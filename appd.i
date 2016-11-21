@@ -79,4 +79,5 @@ extern void appd_exitcall_add_error(appd_exitcall_handle exitcall, enum appd_err
 extern const char * appd_exitcall_get_correlation_header(appd_exitcall_handle exitcall);
 extern void appd_exitcall_store(appd_exitcall_handle exitcall, const char *guid);
 extern appd_exitcall_handle appd_exitcall_get(const char *guid);
+extern int appd_exitcall_set_details(appd_exitcall_handle exitcall, const char* details);
 
